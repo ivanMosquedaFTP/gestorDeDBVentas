@@ -14,6 +14,7 @@ public class Main {
 
             // Itera sobre los resultados
             while (resultSet.next()) {
+                System.out.println(resultSet.getInt("id_proveedor"));
                 System.out.println(resultSet.getString("proveedor"));
             }
 
